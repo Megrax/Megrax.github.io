@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>博文列表</title>
+		<link rel="stylesheet" href="./css/partials/header.css" />
+		<link rel="stylesheet" href="./css/partials/footer.css" />
+		<link rel="stylesheet" href="./css/blog-list.css" />
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="http://cdn.bootcss.com/gsap/1.19.0/TweenMax.min.js"></script>
+		<script src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+		<script src="./js/action.js"></script>
+		<script src="./js/jquery-1.11.0.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="top-nav">
+				<h1>Megrax's Blog</h1>
+				<div class="list-wrapper">
+					<ul>
+						<a href="index.html"
+							><li class="icon-home2">首页</li></a
+						>
+						<a href="#"
+							><li class="icon-pacman lists">
+								<span>列表</span>
+								<div class="dropdown-content">
+									<a href="blog-list.html">博文列表</a>
+									<a href="tag-list.html">标签列表</a>
+								</div>
+							</li></a
+						>
+						<a href="#"><li class="icon-books">关于</li></a>
+						<a href="#"><li class="icon-quotes-left">留言</li></a>
+					</ul>
+				</div>
+				<div class="tool-wrapper">
+					<ul>
+						<li class="icon-search"></li>
+						<li class="icon-contrast"></li>
+					</ul>
+				</div>
+				<a
+					href="/login.html"
+					onclick="document.cookie = 'username=; expires=Thu, 01 Jan 1970 00:00:00 GMT;'"
+					><span>退出登录</span></a
+				>
+			</div>
+		</header>
+		<section class="body">
+			<div class="post" id="post1">
+				<a href="post.html">第一篇博文</a>
+			</div>
+			<div class="post" id="post2"><a href="#">第二篇博文</a></div>
+			<div class="post" id="post3"><a href="#">第三篇博文</a></div>
+			<div class="post" id="post4"><a href="#">第四篇博文</a></div>
+			<div class="post" id="post5"><a href="#">第五篇博文</a></div>
+			<div class="post" id="post6"><a href="#">第六篇博文</a></div>
+			<div class="post" id="post7"><a href="#">第七篇博文</a></div>
+		</section>
+		<!-- 小火箭 -->
+		<div id="shangxia2" class="hidden">
+			<span id="gotop1">
+				<img src="img/huojian.svg" alt="返回顶部小火箭" />
+			</span>
+		</div>
+		<footer>
+			<p class="copyright">
+				2021&nbsp;&copy;&nbsp;<a href="/index">Megrax</a>
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>标签列表</title>
+		<link rel="stylesheet" href="./css/partials/header.css" />
+		<link rel="stylesheet" href="./css/partials/footer.css" />
+		<link rel="stylesheet" href="./css/tag-list.css" />
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="http://cdn.bootcss.com/gsap/1.19.0/TweenMax.min.js"></script>
+		<script src="http://cdn.bootcss.com/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="top-nav">
+				<h1>Megrax's Blog</h1>
+				<div class="list-wrapper">
+					<ul>
+						<a href="index.html"
+							><li class="icon-home2">首页</li></a
+						>
+						<a href="#"
+							><li class="icon-pacman lists">
+								<span>列表</span>
+								<div class="dropdown-content">
+									<a href="blog-list.html">博文列表</a>
+									<a href="tag-list.html">标签列表</a>
+								</div>
+							</li></a
+						>
+						<a href="#"><li class="icon-books">关于</li></a>
+						<a href="#"><li class="icon-quotes-left">留言</li></a>
+					</ul>
+				</div>
+				<div class="tool-wrapper">
+					<ul>
+						<li class="icon-search"></li>
+						<li class="icon-contrast"></li>
+					</ul>
+				</div>
+				<a
+					href="/login.html"
+					onclick="document.cookie = 'username=; expires=Thu, 01 Jan 1970 00:00:00 GMT;'"
+					><span>退出登录</span></a
+				>
+			</div>
+		</header>
+		<section>
+			<div class="tag-wrapper">
+				<div class="des">共有5个标签</div>
+				<div class="tag-area">
+					<div class="tag">#Blog</div>
+					<div class="tag">#Blog</div>
+					<div class="tag">#Blog</div>
+					<div class="tag">#Blog</div>
+					<div class="tag">#Blog</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p class="copyright">
+				2021&nbsp;&copy;&nbsp;<a href="/index">Megrax</a>
+			</p>
+		</footer>
+	</body>
+</html>

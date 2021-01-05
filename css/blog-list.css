@@ -1,0 +1,102 @@
+.body {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 69vh;
+}
+
+.body .post {
+	width: 60vw;
+	height: 200px;
+	margin-top: 70px;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	transition: background-size 1s ease-in-out;
+}
+
+.body .post:hover {
+	background-size: 120%;
+}
+
+.body .post a {
+	color: snow;
+	font-size: 30px;
+}
+
+.body .post a:hover {
+	text-decoration: underline;
+}
+
+.body #post1 {
+	background: url(../img/dis-1.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post1:hover {
+	background-size: 120%;
+}
+
+.body #post2 {
+	background: url(../img/dis-2.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post2:hover {
+	background-size: 120%;
+}
+
+.body #post3 {
+	background: url(../img/dis-3.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post3:hover {
+	background-size: 120%;
+}
+
+.body #post4 {
+	background: url(../img/dis-4.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post4:hover {
+	background-size: 120%;
+}
+.body #post5 {
+	background: url(../img/dis-5.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post5:hover {
+	background-size: 120%;
+}
+
+.body #post6 {
+	background: url(../img/dis-6.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post6:hover {
+	background-size: 120%;
+}
+
+.body #post7 {
+	background: url(../img/dis-7.jpg) rgba(0, 0, 0, 0.3) no-repeat center;
+	background-blend-mode: multiply;
+	background-size: 100%;
+}
+
+.body #post7:hover {
+	background-size: 120%;
+}
