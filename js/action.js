@@ -7,19 +7,6 @@
  * @FilePath: /Blog-FE/action.js
  */
 
-let node = document.getElementById("head-pic");
-console.log(node);
-let flag = 1;
-
-window.setInterval(function () { 
-    flag = flag++ % 3;
-    flag === 0 ? flag = flag++ : flag = flag++ % 3;
-    flag++;
-    if (flag > 3) {
-        flag = flag % 3;
-    }
-    node.setAttribute('style','background: url(./img/head-'+ flag +'.jpg) no-repeat center;background-size: cover;')
-}, 7000);
 
 $(window).scroll(function () {
     //获取距离页面顶部的距离
