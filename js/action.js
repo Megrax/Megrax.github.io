@@ -20,7 +20,6 @@ $(window).scroll(function () {
     let toTop =
         document.documentElement.scrollTop ||
         document.body.scrollTop;
-    console.log(toTop);
     //div距离顶部的距离
     if (toTop >= 800) {
         $('#shangxia2').removeClass('hidden');
